@@ -1,0 +1,19 @@
+{
+  "totalBenignStreams": 50,
+  "falsePositiveAborts": 0,
+  "falsePositiveRatePercent": 0,
+  "totalChunksEvaluated": 909,
+  "totalCharsStreamed": 6207,
+  "meanEvalUs": 9.53,
+  "p50EvalUs": 2.4,
+  "p99EvalUs": 73.2,
+  "chunkSizeSweepRange": [
+    1,
+    40
+  ],
+  "chunkSizeSweepRuns": 2000,
+  "chunkSizeSweepFalsePositives": 0,
+  "largeContiguousPayloadBytes": 131072,
+  "largeContiguousMeanEvalUs": 11.93,
+  "largeContiguousP99EvalUs": 114.6
+}

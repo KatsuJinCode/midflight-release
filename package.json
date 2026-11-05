@@ -1,0 +1,43 @@
+{
+  "name": "midstream-hooks",
+  "version": "0.1.0",
+  "description": "Deterministic midstream token hooks (DuringThinking, DuringText, DuringToolInput) with semantic acknowledgement prefixes for LLM harnesses and SSE proxies.",
+  "type": "module",
+  "main": "./src/index.mjs",
+  "exports": {
+    ".": "./src/index.mjs",
+    "./engine": "./src/engine.mjs",
+    "./sse": "./src/sse-stream.mjs",
+    "./rules": "./src/default-rules.mjs",
+    "./proxy": "./src/proxy-adapter.mjs",
+    "./dispatcher": "./src/dispatcher-bridge.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KatsuJinCode/midflight-release.git"
+  },
+  "homepage": "https://github.com/KatsuJinCode/midflight-release#readme",
+  "bugs": {
+    "url": "https://github.com/KatsuJinCode/midflight-release/issues"
+  },
+  "author": "KatsuJinCode",
+  "bin": {
+    "midstream-proxy": "./bin/midstream-proxy.mjs"
+  },
+  "scripts": {
+    "test": "node --test test/midstream.test.mjs",
+    "poc:minimax": "node poc-minimax.mjs"
+  },
+  "keywords": [
+    "llm",
+    "hooks",
+    "streaming",
+    "sse",
+    "deterministic",
+    "guardrails",
+    "agent-harness",
+    "claude-code",
+    "minimax"
+  ],
+  "license": "MIT"
+}
